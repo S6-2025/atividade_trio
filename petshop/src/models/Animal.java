@@ -8,10 +8,12 @@ public class Animal {
   private String dono;
   private int idade;
 
-  public Animal(String especie, String raca, String cor, int idade) {
+  public Animal(String especie, String raca, String cor,String nome, String dono, int idade) {
     this.especie = especie;
     this.raca = raca;
     this.cor = cor;
+    this.nome = nome;
+    this.dono = dono;
     this.idade = idade;
   }
 
@@ -57,7 +59,7 @@ public class Animal {
     return dono;
   }
 
-  //MO Mudar depois esses métodos
+  //MO MUDAR depois esses métodos
   public String Parar(){
     return nome;
   }
