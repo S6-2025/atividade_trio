@@ -56,18 +56,11 @@ public class Animal {
     return dono;
   }
 
-  //MO MUDAR depois esses métodos
-  public String Parar(){
-    return nome;
+  public String EmitirSom(){
+    return "emitindo som";
   }
 
-  public String Andar() {
-    return nome;
-  }
-
-  public String Correr() {
-    return nome;
-  }
+ 
 
   @Override
   public String toString() {
