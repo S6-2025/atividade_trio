@@ -1,7 +1,7 @@
 package models;
 
 public class Animal {
-  private String especie;
+  private final String especie;
   private String raca;
   private String cor;
   private String nome;
@@ -17,9 +17,6 @@ public class Animal {
     this.idade = idade;
   }
 
-  public void setEspecie(String especie) {
-    this.especie = especie;
-  }
   public String getEspecie() {
     return especie;
   }
