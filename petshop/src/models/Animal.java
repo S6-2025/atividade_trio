@@ -57,6 +57,10 @@ public class Animal {
     return dono;
   }
 
+  //MO Mudar depois esses métodos
+  public String Parar(){
+    return nome;
+  }
 
   public String Andar() {
     return nome;
