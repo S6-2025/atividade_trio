@@ -1,4 +1,4 @@
-<img src="images/banners.jpg">
+<img src="https://github.com/S6-2025/atividade_trio/blob/develop/images/banners.png">
 
 <br>
 
