@@ -46,7 +46,7 @@ public class Consulta {
     @Override
     public String toString() {
         return "📅Data da consulta: " + getDataFormatada() +
-               "\n🐾Paciente: " + nomeAnimal +
+               "\n🐾Pet-ciente: " + nomeAnimal +
                "\n🥼Doutor: " + doutor;
     }
 }
