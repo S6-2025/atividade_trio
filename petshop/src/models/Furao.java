@@ -35,6 +35,6 @@ public class Furao extends Animal{
 
     @Override
     public String toString() {
-        return super.toString() + "\nNível de fofura: LVL." + getFofura();
+        return "[ " + super.toString() + "\nNível de fofura: LVL." + getFofura() + "\n" + EmitirSom() +" ]\n";
     }
 }

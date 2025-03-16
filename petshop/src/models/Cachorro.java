@@ -4,8 +4,8 @@ public class Cachorro extends Animal {
     private int comportamento; //1 - Agitado 2- Bravo 3- Calmo/Neutro
     private String latido;
 
-    public Cachorro(String especie, String raca, String cor, String nome, String dono, int idade, int comportamento){
-    super(especie, raca, cor, nome, dono, idade);
+    public Cachorro(String raca, String cor, String nome, String dono, int idade, int comportamento){
+    super("Canis lupus familiaris", raca, cor, nome, dono, idade);
     this.comportamento = comportamento;
     }
 
@@ -45,7 +45,7 @@ public class Cachorro extends Animal {
 
     @Override
     public String toString() {
-        return super.toString() + "\nComportamento: " + getLatido();
+        return "[ " + super.toString() + "\nComportamento: " + getLatido() + "\n" + EmitirSom() +  " ]\n";
     }
 
 }
